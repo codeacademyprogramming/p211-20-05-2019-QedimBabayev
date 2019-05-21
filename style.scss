@@ -1,0 +1,145 @@
+@import 'default';
+@import 'variables';
+@import 'warning';
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+body{
+    background: url('img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    
+}
+header {
+
+
+
+    nav{
+        padding:30px 35px;
+        background-color: white;   
+    }
+
+    .brand{
+        font-size: 1.5em;
+        font-weight: bold;
+        color: $main-color;
+
+    }
+     .rightnav{
+         line-height: 41px;
+          
+         a{
+             color: $second-color;
+
+             &:hover{
+                 color:$third-color;
+             }
+         }
+
+         
+     }
+    li{
+        padding: 0  10px;
+    }
+}
+#hello{
+    background-color: $main-color;
+     
+    .txtholder h1{
+        font-size: 3.5em;
+        font-weight: bold;
+        color: $third-color;
+        width: 500px;
+
+        
+    }
+    .txtholder p{
+        color: $new-color;
+        margin: 33px 0px;
+
+    }
+     .btn{
+         @extend %main-button;
+         color: black;
+         font-weight: bold;
+         transition: all 0.3s linear;
+
+          &:hover{
+              @extend %main-button;
+              color: white;
+              background-color:$third-color;
+              border-color: $third-color;
+
+          }
+     }
+     .row .left{
+         padding: 50px 30px;
+
+         .txtholder{
+            padding: 20px 0px;
+         }
+         
+
+     }
+     .row.right{
+        
+         padding: 50px 30px;
+
+     
+     
+     .col-6{
+        
+         height:175px;
+         width: 175px;
+         margin-bottom: 23px;
+
+         .textholder{
+            background-color: $third-color;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align:center;
+            align-items: center;
+            color:$main-color;
+            font-size: 2.2em;
+            font-weight: bold;
+         }
+     }
+    }
+
+     
+}
+#responsive{
+    padding: 50px 30px;
+    background-color: $new-color;
+      .wrapper h6{
+          display: inline-block;
+
+        
+      }
+      .wrapper p{
+          margin-top: 20px;
+      }
+      
+    span{
+        border: 1px solid #333;
+        background-color: #333;
+        border-radius: 100%;
+        color: white;
+        font-size: 1.2em;
+        padding: 10px;
+
+
+    }
+
+}
+
+

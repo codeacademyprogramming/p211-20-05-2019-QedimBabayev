@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#hello .btn, #hello .btn:hover {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  background: url("img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+}
+
+header nav {
+  padding: 30px 35px;
+  background-color: white;
+}
+
+header .brand {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fec901;
+}
+
+header .rightnav {
+  line-height: 41px;
+}
+
+header .rightnav a {
+  color: #959595;
+}
+
+header .rightnav a:hover {
+  color: #333;
+}
+
+header li {
+  padding: 0  10px;
+}
+
+#hello {
+  background-color: #fec901;
+}
+
+#hello .txtholder h1 {
+  font-size: 3.5em;
+  font-weight: bold;
+  color: #333;
+  width: 500px;
+}
+
+#hello .txtholder p {
+  color: white;
+  margin: 33px 0px;
+}
+
+#hello .btn {
+  color: black;
+  font-weight: bold;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+#hello .btn:hover {
+  color: white;
+  background-color: #333;
+  border-color: #333;
+}
+
+#hello .row .left {
+  padding: 50px 30px;
+}
+
+#hello .row .left .txtholder {
+  padding: 20px 0px;
+}
+
+#hello .row.right {
+  padding: 50px 30px;
+}
+
+#hello .row.right .col-6 {
+  height: 175px;
+  width: 175px;
+  margin-bottom: 23px;
+}
+
+#hello .row.right .col-6 .textholder {
+  background-color: #333;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fec901;
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+#responsive {
+  padding: 50px 30px;
+  background-color: white;
+}
+
+#responsive .wrapper h6 {
+  display: inline-block;
+}
+
+#responsive .wrapper p {
+  margin-top: 20px;
+}
+
+#responsive span {
+  border: 1px solid #333;
+  background-color: #333;
+  border-radius: 100%;
+  color: white;
+  font-size: 1.2em;
+  padding: 10px;
+}
+/*# sourceMappingURL=style.css.map */
